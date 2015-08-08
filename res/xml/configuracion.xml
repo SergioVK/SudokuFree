@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+  	<CheckBoxPreference 
+  		android:key="Musica" 
+  		android:title="@string/configuracionMusica" 
+  		android:summary="@string/configuracionTextoMusica" 
+  		android:defaultValue="true" /> 
+  	<CheckBoxPreference 
+  		android:key="hints" 
+  		android:title="@string/configuracionPistas" 
+  		android:summary="@string/configuracionTextoPistas" 
+  		android:defaultValue="false" />
+  	<CheckBoxPreference 
+  		android:key="PistasTeclado" 
+  		android:title="@string/configuracionPistasTeclado" 
+  		android:summary="@string/configuracionTextoPistasTeclado" 
+  		android:defaultValue="false" />
+  	<CheckBoxPreference 
+  		android:key="PantallaEncendida" 
+  		android:title="@string/configuracionPantallaEncendida" 
+  		android:summary="@string/configuracionPantallaEncendidaTexto" 
+  		android:defaultValue="true" />
+</PreferenceScreen>

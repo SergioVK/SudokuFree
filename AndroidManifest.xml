@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.Sergio_VK.SudokuFree"
+      android:versionCode="2"
+      android:versionName="1.0.0.1">
+    <uses-sdk android:minSdkVersion="4" />
+    <supports-screens
+ 		android:largeScreens="true"
+ 		android:normalScreens="true"
+ 		android:smallScreens="true"
+ 		android:anyDensity="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="com.Sergio_VK.Sudoku.Sudoku" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.Sergio_VK.Sudoku.Info" android:label="@string/tituloPagInfo" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name="com.Sergio_VK.Sudoku.ganador" android:label="@string/juegoTerminadoTitulo" android:theme="@android:style/Theme.Dialog" />
+		<activity android:name="com.Sergio_VK.Sudoku.Configuracion" android:label="@string/configuracionTitulo" />
+		<activity android:name="com.Sergio_VK.Sudoku.Juego" android:label="@string/tituloPagJuego" />
+		<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<meta-data android:value="a14d7b28f362603" android:name="ADMOB_PUBLISHER_ID" />
+		<meta-data android:value="a14d7b28f362603" android:name="ADMOB_INTERSTITIAL_PUBLISHER_ID" />
+		<meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true">
+        	<intent-filter>
+   				<action android:name="com.android.vending.INSTALL_REFERRER" />
+			</intent-filter>
+		</receiver>
+    </application>   
+</manifest>

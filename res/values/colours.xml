@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="fondo">#3500ffff</color>
+	<color name="fondoSudoku">#ffe6f0ff</color>
+	<color name="sudokuClaro">#64c6d4ef</color>
+	<color name="sudokuOscuro">#6456648f</color>
+	<color name="sudokuColorFuente">#ff000000</color>
+	<color name="sudokuHilite">#ffffffff</color>
+	<color name="sudokuCeldaSeleccionada">#64ff8000</color>
+	<color name="sudokuPista0">#64ff0000</color>
+	<color name="sudokuPista1">#6400ff80</color>
+	<color name="sudokuPista2">#2000ff80</color>
+</resources>

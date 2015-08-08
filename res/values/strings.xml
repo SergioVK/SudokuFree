@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="tituloPrincipal">Bienvenido a Sudoku</string>
+    <string name="nuevaPartida">Partida nueva</string>
+    <string name="continuar">Continuar</string>
+    <string name="info">Información</string>
+    <string name="salir">Salir</string>
+    <string name="tituloPagInfo">Instrucciones</string>
+    <string name="textoInfo">Sudoku es un juego lógico parecido a un puzzle. Empieza con una tabla de 9X9 parcialmente completada. El objetivo del juego es que cada fila, columna y grupo de 3X3 celdas (llamados <i>bloques</i>) contengan los número del 1 al 9 sin repetir ninguno</string>
+    <string name="configuracionEtiqueta">Configuracion</string>
+    <string name="ComprarEtiqueta">Adquirir Sudoku sin publicidad</string>
+    <string name="configuracionTitulo">Configuración</string>
+    <string name="configuracionShortCut">s</string>
+    <string name="ComprarShortCut">c</string>
+    <string name="configuracionMusica">Música</string>
+    <string name="configuracionTextoMusica">Reproducir música de fondo</string>
+    <string name="configuracionPistasTeclado">Pistas en teclado</string>
+    <string name="configuracionTextoPistasTeclado">Solo permite valores posibles</string>
+    <string name="configuracionPistas">Pistas</string>
+    <string name="configuracionTextoPistas">Mostrar pistas durante el juego</string>
+    <string name="configuracionPantallaEncendida">Pantalla</string>
+    <string name="configuracionPantallaEncendidaTexto">No apagar la pantalla durante el juego</string>
+    <string name="menuDificultad">Nueva Partida</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="tituloPagJuego">Sudoku</string>
+    <string name="sinMovimienos">Sin movimientos</string>
+    <string name="tituloKeypad">Introduzca el valor</string>
+    <string name="TecladoAtras">Atras</string>
+    <string name="TecladoBorrar">Borrar valor</string>
+    <string name="JuegoTerminado">¡Hurra! Ha completado el juego</string>
+    <string name="juegoTerminadoTitulo">¡Enhorabuena!</string>
+    <string name="admob_id">a14d7b28f362603</string>
+    <string name="esFree">true</string>
+    <string name="refSudokuDonate">details?id=com.Sergio_VK.Sudoku</string>
+    <string name="refMarket">market://</string>
+    <string name="refMarketWeb">https://market.android.com/</string>
+</resources>
